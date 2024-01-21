@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(12, 94, 107, 0.527);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #login-container {
+            width: 300px;
+            margin: 150px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="retype password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login-container">
+        <h2>Login Details</h2>
+        <form action="file:///C:/Users/thann/OneDrive/Desktop/web%20development/website.html" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="retype password">Retype Password:</label>
+            <input type="retype password" id="retype password" name="retype" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+
+</html>
